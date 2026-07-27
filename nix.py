@@ -6,9 +6,9 @@ import shutil
 import socket
 import datetime
 import subprocess
-# Version: 1.4 T.Sin
+# Version: 1.4 T.NIX
 # Tel: @im_nix1
-LICENSE_USER = "Sin.Kabir"
+LICENSE_USER = "NiX"
 LICENSE_REMAINING = "∞"
 LICENSE_PLAN = "g"
 
@@ -190,7 +190,7 @@ def detect_geoip_paths():
 
 def fetch_global_license():
     global LICENSE_USER, LICENSE_REMAINING, LICENSE_PLAN
-    LICENSE_USER = "Sin.Kabir"
+    LICENSE_USER = "NIX"
     LICENSE_REMAINING = "∞"
     LICENSE_PLAN = "g"
 
@@ -199,15 +199,6 @@ def clear_screen():
     os.system("clear")
 
 def print_banner():
-
-    print(f"{COLOR_PRIMARY} ┌────────────────────────────────────────────────────────┐{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}  ████████╗     ██████╗  ██╗ ███╗   ██╗                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}  ╚══██╔══╝    ██╔════╝  ██║ ████╗  ██║                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}     ██║       ╚█████╗   ██║ ██╔██╗ ██║                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}     ██║        ╚═══██╗  ██║ ██║╚██╗██║                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}     ██║  ██╗  ███████║  ██║ ██║ ╚████║                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} │{COLOR_SECONDARY}     ╚═╝  ╚═╝  ╚══════╝  ╚═╝ ╚═╝  ╚═══╝                 {COLOR_PRIMARY}│{COLOR_RESET}")
-    print(f"{COLOR_PRIMARY} ├────────────────────────────────────────────────────────┤{COLOR_RESET}")
     
     col1_raw = f" User: {LICENSE_USER}"
     col2_raw = f" Remaining: {LICENSE_REMAINING}"
